@@ -11,35 +11,49 @@ body {
 }
 
 #KEY {
-  text-align: center;
+  text-align: left;
+  vertical-align: top;
   margin-left: 250px;
   border-style: solid;
   border-color: white;
-  max-width: 300px;
+  max-width: 550px;
+  max-height: 220px;
   float: bottom right;
+
+
 
 }
 
 .titleKey {
-  color:
+  color: #9ce6ff;
 }
 
 .colKey {
-  color:
+  color: #940000;
 }
 
 .matKey {
-  color:
+  color: #e07f1d;
 }
 
-.regKey {
-  color:
+.dietKey {
+  color: #ebd40c
 }
 
 .habKey {
-  color:
+  color: #3dd993;
 }
 
 .eleKey {
-  color:
+  color: #4f0dbf;
+}
+
+.typeKey  {
+
+}
+
+.newColumn {
+  line-height: 1000px;
+  margin-top: -600px;
+  margin-left: 250px;;
 }
