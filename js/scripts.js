@@ -69,9 +69,9 @@ $(document).ready(function(){
   var maxDragon = ["Black", "Adult", "Omnivore", "Forest", "Fire", "West"];
 
   for(var dragon in scores){
-    if scores[dragon]>scores[maxDragon]){
-      maxDragon= dragon;
-    }
+    if (scores[dragon] > scores[maxDragon]){
+      maxDragon = dragon;
+  }
     $("#personalityQuiz").css('display', 'none');
     $(".result#"+maxDragon).css('display', 'block');
 
@@ -81,4 +81,5 @@ $(document).ready(function(){
 
 
 
+});
 });
