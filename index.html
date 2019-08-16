@@ -1,167 +1,254 @@
-<!Doctype html>
-<html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <script src="js/jquery.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Dragon Quiz!</title>
-  </head>
+  <!Doctype html>
+  <html>
+    <head>
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/styles.css" rel="stylesheet">
+      <script src="js/jquery.js"></script>
+      <script src="js/scripts.js"></script>
+      <title>Dragon Quiz!</title>
+    </head>
 
-  <body>
-    <h1> What Type of Dragon Are You?</h1>
+    <body>
+      <h1> What Type of Dragon Are You?</h1>
 
-    <h2> ctrl (or alt) + click to select multiple</h2>
+      <h2> ctrl (or alt) + click to select multiple</h2>
 
-    <div id="KEY">
-      <h2><span class="titleKey">This is how your results will be displayed:</span></h2>
-      <ol>
-        <li><span class="colKey">(_)</span>Your Color</li>
-        <li><span class="matKey">(_)</span>Your Maturity</li>
-        <li><span class="regKey">(_)</span>Your Region</li>
-        <li><span class="envKey">(_)</span>Your Environment</li>
-        <li><span class="eleKey">(_)</span>Your Element</li>
-      </ol>
+      <div id="KEY">
+        <h2><span class="titleKey">This is how your results will be displayed:</span></h2>
+        <ol>
+          <li><span class="colKey">(_)</span>Your Color</li>
+          <li><span class="matKey">(_)</span>Your Maturity</li>
+          <li><span class="regKey">(_)</span>Your Region</li>
+          <li><span class="envKey">(_)</span>Your Environment</li>
+          <li><span class="eleKey">(_)</span>Your Element</li>
+        </ol>
+      </div>
+
+      <form id="personalityQuiz">
+
+        <div class="questionGroup">
+          <h3>What is your favorite color?</h3>
+          <select id="selColor" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>Where do you feel like going today?</h3>
+          <select id="selExplore" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>How well do you get along with other people?</h3>
+          <select id="selSocial" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>Describe your temperament.</h3>
+          <select id="selTemper" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>What do you like to snack on?</h3>
+          <select id="selSnack" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>Select 3 foods that you would like to have in front of you right now.</h3>
+          <select id="selFood" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>Describe yourself in 3 words</h3>
+          <select id="selDescribe" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>what type of bedding is most comfortable to you?</h3>
+          <select id="selBed" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>Which of these powers seems most useful to you?</h3>
+          <select id="selPower" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>Which word(s) cause disgust, stress, anger, frustration, concern, or fear?</h3>
+          <select id="selWord-1" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+
+          <h3>Which word(s) cause calm, confidence, and content?</h3>
+          <select id="selWord-2" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>Which music genres do you prefer?</h3>
+          <select id="selMusic" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>You accidentally swallowed a spoon! What is your emotional response?</h3>
+          <select id="selOops-1" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>Someone you care about accidentally swallowed a spoon this time! What is your emotional response?</h3>
+          <select id="selOops-2" size=5>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+            <option value="[result value]">[Text]</option>
+          </select>
+
+          <h3>What is your age?</h3>
+          <p><strong>Note To Self:</strong><br><br>free-response here.</p>
+        <!-- if else function goes here -->
+        <!-- REMEMBER THIS EXISTS -->
+        <!-- Look RIGHT HERE, ANISE -->
+        </div>
+
+        <input type="submit" value="Submit">
+
+      </form>
+
+    <div class="result" id="[result-value]">
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
+
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
+
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
+
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
+
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
     </div>
 
-    <form id="personalityQuiz">
+    <div class="result" id="[result-value]">
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-      <div class="questionGroup">
-        <h3>What is your favorite color?</h3>
-        <select id="selColor" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>Where do you feel like going today?</h3>
-        <select id="selExplore" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>How well do you get along with other people?</h3>
-        <select id="selSocial" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>Describe your temperament.</h3>
-        <select id="selTemper" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
+    </div>
 
-        <h3>What do you like to snack on?</h3>
-        <select id="selSnack" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+    <div class="result" id="[result-value]">
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>Select 3 foods that you would like to have in front of you right now.</h3>
-        <select id="selFood" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>Describe yourself in 3 words</h3>
-        <select id="selDescribe" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>what type of bedding is most comfortable to you?</h3>
-        <select id="selBed" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>Which of these powers seems most useful to you?</h3>
-        <select id="selPower" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
+    </div>
 
-        <h3>Which word(s) cause disgust, stress, anger, frustration, concern, or fear?</h3>
-        <select id="selWord-1" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+    <div class="result" id="[result-value]">
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>Which word(s) cause calm, confidence, and content?</h3>
-        <select id="selWord-2" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>Which music genres do you prefer?</h3>
-        <select id="selMusic" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>You accidentally swallowed a spoon! What is your emotional response?</h3>
-        <select id="selOops-1" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
+    </div>
 
-        <h3>Someone you care about accidentally swallowed a spoon this time! What is your emotional response?</h3>
-        <select id="selOops-2" size=5>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-          <option value="[result value]">[Text]</option>
-        </select>
+    <div class="result" id="[result-value]">
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
-        <h3>What is your age?</h3>
-        <p><strong>Note To Self:</strong><br><br>free-response here.</p>
-      <!-- if else function goes here -->
-      <!-- REMEMBER THIS EXISTS -->
-      <!-- Look RIGHT HERE, ANISE -->
-      </div>
-    </form>
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
 
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
+
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
+
+      <h2>[Result text]</h2>
+      <p>image goes here<p>
+    </div>
 
   </body>
 
