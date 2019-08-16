@@ -3,8 +3,43 @@ body {
   font-size: 21px;
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 .result {
   display: none;
+}
+
+#KEY {
+  text-align: center;
+  margin-left: 250px;
+  border-style: solid;
+  border-color: white;
+  max-width: 300px;
+  float: bottom right;
+
+}
+
+.titleKey {
+  color:
+}
+
+.colKey {
+  color:
+}
+
+.matKey {
+  color:
+}
+
+.regKey {
+  color:
+}
+
+.habKey {
+  color:
+}
+
+.eleKey {
+  color:
 }
