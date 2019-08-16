@@ -1,0 +1,10 @@
+body {
+  font-family: 'Spectral';
+  font-size: 21px;
+  background-color: black;
+  color: white;
+}
+
+.result {
+  display: none;
+}
