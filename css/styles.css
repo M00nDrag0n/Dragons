@@ -6,9 +6,9 @@ body {
   text-align: center;
 }
 
-.result {
+/* .result {
   display: none;
-}
+} */
 
 #KEY {
   text-align: left;
@@ -56,4 +56,56 @@ body {
   line-height: 1000px;
   margin-top: -600px;
   margin-left: 250px;;
+}
+
+#ColImg img{
+  height: 100px;
+  width:200px;
+  position: relative;
+
+}
+
+#ColImg {
+  height: 100px;
+  width:200px;
+  position: relative;
+  float: right;
+  margin-right: 20px;
+}
+
+#MatImg img{
+  height: 300px;
+  width:400px;
+  position: relative;
+
+}
+
+#DietImg img{
+  height: 100px;
+  width:200px;
+  position: relative;
+}
+
+#DietImg {
+  height: 100px;
+  width:200px;
+  position: relative;
+}
+
+#HabImg img{
+  height: 300px;
+  width:400px;
+  position: relative;
+}
+
+#EleImg img{
+  height: 350px;
+  width:400px;
+  position: relative;
+}
+
+#TypeImg img{
+  height: 200px;
+  width:300px;
+  position: relative;
 }

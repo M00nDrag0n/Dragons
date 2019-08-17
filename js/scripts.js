@@ -49,6 +49,7 @@ $(document).ready(function(){
       "Darkness": 0,
       "Light": 0,
       "Ice": 0,
+      "Metal": 0,
       "Electricity": 0,
       "Transformation": 0,
       "Time": 0,
