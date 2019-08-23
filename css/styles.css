@@ -19,10 +19,19 @@ body {
   max-width: 550px;
   max-height: 220px;
   float: bottom right;
-
-
-
 }
+
+h3 {
+  color: #9ef2ff;
+}
+
+input {
+  background: black;
+  color: #5902ab;
+  border-style: solid;
+  border-color: #9ef2ff;
+}
+
 
 .titleKey {
   color: #9ce6ff;
