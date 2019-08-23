@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     var answers= $(this).serializeArray();
 
-    var scores = {
+    var scores1 = {
       "Red": 0,
       "Orange": 0,
       "Yellow": 0,
@@ -23,17 +23,23 @@ $(document).ready(function() {
       "Gold": 0,
       "Magenta": 0,
       "Blue-Grey": 0,
+    }
+    var scores2 = {
       "Hatchling": 0,
       "Young": 0,
       "Teenager": 0,
       "Adolescent": 0,
       "Adult": 0,
       "Elder": 0,
+    }
+    var scores3 = {
       "Meat": 0,
       "Fish": 0,
       "Herb": 0,
       "Omni": 0,
       "Nectar": 0,
+    }
+    var scores4 = {
       "Forest": 0,
       "Cave": 0,
       "Jungle": 0,
@@ -42,6 +48,8 @@ $(document).ready(function() {
       "Ocean": 0,
       "Underground": 0,
       "House": 0,
+    }
+    var scores5 = {
       "Earth": 0,
       "Water": 0,
       "Fire": 0,
@@ -58,16 +66,13 @@ $(document).ready(function() {
       "West": 0,
   };
 
+  var scores= [scores1 + scores2 + scores3 + scores4 + scores5];
 
 
   for (var answer of answers){
   scores[answer.value] += 1;
   }
-  console.log(scores);
-  for(var dragon in scores){
 
-
-  }
 
   var maxDragon = "West";
 
