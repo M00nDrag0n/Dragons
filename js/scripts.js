@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $("#PersonalityQuiz").submit(function(event) {
+$(document).ready(function() {
+  $("#personalityQuiz").submit(function(event) {
 
     event.preventDefault();
 
