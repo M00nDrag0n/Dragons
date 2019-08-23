@@ -58,16 +58,18 @@ $(document).ready(function() {
       "West": 0,
   };
 
+
+
   for (var answer of answers){
-    scores[answer.value] +=1;
+  scores[answer.value] += 1;
   }
-
+  console.log(scores);
   for(var dragon in scores){
-    console.log(scores[dragon]);
+
 
   }
 
-  var maxDragon = ["Black", "Adult", "Omnivore", "Forest", "Fire", "West"];
+  var maxDragon = "West";
 
   for(var dragon in scores){
     if (scores[dragon] > scores[maxDragon]){
@@ -76,11 +78,7 @@ $(document).ready(function() {
     $("#personalityQuiz").css('display', 'none');
     $(".result#"+maxDragon).css('display', 'block');
 
-
   }
 
-
-
-
-});
-});
+  });
+})
