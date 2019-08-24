@@ -10,15 +10,15 @@ _By selecting options and hitting the submit button, you can find out what type 
 
 ## Setup/Installation Requirements
 
-* _clone this repository onto your desktop._
-* _open the index.html file in your browser._
+* _Copy paste this link [ https://m00ndrag0n.github.io/Dragons/ ] onto your browser._
+* _Enjoy!_
 
 
 _No additional servers are needed._
 
 ## Known Bugs
 
-_Main bug so far is that I am unable to make the results show when I hit the submit button._
+_Current bug is that only 2 results show up and one of them is defaulted and will not budge._
 
 ## Support and contact details
 
